@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/scholarshiplogo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        android:tint="@color/blue"
+        app:layout_constraintBottom_toTopOf="@+id/textView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="412dp"
+        android:layout_height="414dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.988">
+
+        <RelativeLayout
+            android:id="@+id/statelayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textstate"
+                android:layout_width="223dp"
+                android:layout_height="209dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="0dp"
+
+                android:layout_marginBottom="18dp"
+                android:layout_toRightOf="@id/stateimage"
+                android:fontFamily="casual"
+                android:text="Here are some of the most common options available to you:  Full scholarships: these are the most popular scholarships for international students as they cover both your tuition fees and living costs. Full scholarships are very competitive and usually awarded to high-achieving students. Part scholarships: they can range from small and one-off payments to covering your whole tuition fees. They do not usually include any support for your living costs. Country-specific scholarships: check the eligibility details carefully for each scholarship as some are for students from specific countries only. Course-specific scholarships: these are for students who intend to study a particular course. External scholarships: in addition to university scholarships, there are also external scholarship options which you can consider. Some governments and local organisations sponsor students from their countries or provide student loan options to study overseas. Home/EU scholarships: some scholarships are meant for UK or EU students only and is often the case when the funding comes from UK or European bodies. Here are some things to consider when you begin your search:  Not all UK scholarships are awarded based on financial need – most will evaluate your academic abilities. You can only apply for scholarships either when you are applying for the course or after you have applied. Many universities set the deadline for scholarship applications early in the year, so start your research early. "
+                android:textColor="@color/blue" />
+
+            <ImageView
+                android:id="@+id/stateimage"
+                android:layout_width="164dp"
+                android:layout_height="154dp"
+
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="26dp"
+                tools:src="@drawable/scholarship_banner" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="287dp"
+        android:layout_height="70dp"
+        android:fontFamily="casual"
+        android:text="Scholarships for this state"
+        android:textColor="@color/blue"
+        android:textSize="24sp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.217" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

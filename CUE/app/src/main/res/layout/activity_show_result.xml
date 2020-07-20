@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundgradient"
+    tools:context=".ShowResFragment">
+
+    <ImageView
+        android:id="@+id/result"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo"
+        android:tint="@color/blue"
+        app:layout_constraintBottom_toTopOf="@+id/myresTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/myresTV"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:fontFamily="casual"
+        android:text="Your Result: Electrical Engineering"
+        android:textColor="@color/blue"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="242dp"
+        android:layout_height="143dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="452dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myresTV"
+        app:layout_constraintVertical_bias="0.327"
+        app:srcCompat="@drawable/electricaleng" />
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="304dp"
+        android:fontFamily="casual"
+        android:text="A program that prepares individuals to apply mathematical and scientific principles to the design, development and operational evaluation of electrical and electronic systems and their components, including electrical power generation systems; and the analysis of problems such as superconductor, wave propagation, energy storage and retrieval, and reception and amplification."
+        android:textColor="@color/blue"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <Button
+        android:id="@+id/againTestbtn"
+        style="@android:style/Widget.Button"
+        android:layout_width="109dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="100dp"
+        android:background="@drawable/roundbtn"
+        android:fontFamily="casual"
+        android:onClick="repeatTest"
+        android:text="Do test again"
+        android:textSize="14sp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/showmorebtn"
+        style="@android:style/Widget.Button"
+        android:layout_width="180dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/roundbtn"
+        android:fontFamily="casual"
+        android:onClick="goothers"
+        android:text="Show me more tests"
+        android:textSize="14sp"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/searchtestbtn"
+        style="@android:style/Widget.Button"
+        android:layout_width="151dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/roundbtn"
+        android:fontFamily="casual"
+        android:text="Search Courses"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorWhite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main.xml"
+    app:startDestination="@id/menuMainPage">
+
+    <fragment
+        android:id="@+id/menuMainPage"
+        android:name="com.example.cue.MainPageFragment"
+        android:label="MainPageFragment" />
+    <fragment
+        android:id="@+id/menuContact"
+        android:name="com.example.cue.ContactFragment"
+        android:label="ContactFragment" />
+    <fragment
+        android:id="@+id/menufaq"
+        android:name="com.example.cue.FAQFragment"
+        android:label="FAQFragment" />
+    <fragment
+        android:id="@+id/menuCourse"
+        android:name="com.example.cue.CourseFragment"
+        android:label="CourseFragment" />
+    <fragment
+        android:id="@+id/menuCareer"
+        android:name="com.example.cue.CareerFragment"
+        android:label="CareerFragment" />
+    <fragment
+        android:id="@+id/menuPeers"
+        android:name="com.example.cue.PeersFragment"
+        android:label="PeersFragment" />
+    <fragment
+        android:id="@+id/menuScholarships"
+        android:name="com.example.cue.ScholarshipsFragment"
+        android:label="ScholarshipsFragment" />
+    <fragment
+        android:id="@+id/menuServices"
+        android:name="com.example.cue.ServicesFragment"
+        android:label="fragment_services"
+        tools:layout="ServicesFragment" />
+    <fragment
+        android:id="@+id/menuEdit"
+        android:name="com.example.cue.EditFragment"
+        android:label="EditProfileFragment" />
+    <fragment
+        android:id="@+id/menuChats"
+        android:name="com.example.cue.ChatSavedFragment"
+        android:label="ChatsFragment" />
+    <fragment
+        android:id="@+id/menuResults"
+        android:name="com.example.cue.ResultsFragment"
+        android:label="ResultsFragment" />
+    <fragment
+        android:id="@+id/menuLogout"
+        android:name="com.example.cue.LogoutFragment"
+        android:label="LogoutFragment" />
+</navigation>

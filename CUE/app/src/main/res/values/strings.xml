@@ -1,0 +1,263 @@
+<resources>
+    <string name="app_name">C.U.E.</string>
+    <string name="c_u_e">C.U.E.</string>
+
+    <string name="mainPage">Main Page</string>
+    <string name="contact">Contact us</string>
+    <string name="f_a_q">F.A.Q.</string>
+    <string name="course">Find a Course</string>
+    <string name="career">Choose Your Career</string>
+    <string name="peers">Chat with Peers</string>
+    <string name="scholarships">Scholarships</string>
+    <string name="services">Services</string>
+    <string name="edit">Edit Profile</string>
+    <string name="chats">My Chats</string>
+    <string name="results">My Results</string>
+    <string name="logout">LogOut</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="search_your_field">Search your field</string>
+    <string name="todo">TODO</string>
+    <string name="desc" />
+    <string name="checkbox3">TopUniversity </string>
+    <string name="checkbox2"> Disable services</string>
+    <string name="checkbox4"> Geographic </string>
+    <string name="checkbox1"> Scholarship </string>
+    <string name="tap_to_filter" />
+    <string name="state" />
+    <string name="faculty" />
+    <string name="department" />
+    <string name="search" />
+
+    <string name="TypeCourse" />
+    <string name="Obiettivi" />
+    <string name="Language" />
+    <string name="Website" />
+    <string name="Faculty" />
+
+    <string-array name="items_class1">
+        <item>Engineering</item>
+        <item>Litterature</item>
+        <item>History</item>
+        <item>Maths,Physics</item>
+
+    </string-array>
+
+    <string-array name="items_div_class1_1">
+
+        <item>--</item>
+        <item>Engineering in Computer Science</item>
+        <item>Mechanical Engineering</item>
+        <item>Civil Engineering</item>
+        <item>Electrical Engineering</item>
+        <item>Managment Engineering</item>
+        <item>Chemical Engineering</item>
+
+
+    </string-array>
+
+    <string-array name="items_div_class1_2">
+        <item>--</item>
+
+        <item> Arts</item>
+        <item> Anchian Litterature</item>
+        <item> Modern Litterature</item>
+        <item> Languages</item>
+
+    </string-array>
+
+    <string-array name="items_div_class1_3">
+        <item>--</item>
+        <item>History</item>
+        <item>History and Philosophy</item>
+        <item>Politics Science</item>
+        <item>Geography</item>
+
+    </string-array>
+
+    <string-array name="items_div_class1_4">
+        <item>--</item>
+        <item>Maths</item>
+        <item>Physics</item>
+
+        <item>Chemistry</item>
+        <item>Natural Sciences</item>
+
+
+    </string-array>
+
+    <string-array name="items_class">
+        <item>England</item>
+        <item>Germany</item>
+        <item>Italy</item>
+        <item>Usa</item>
+
+    </string-array>
+
+    <string-array name="items_div_class_1">
+
+        <item>--</item>
+        <item>Scotland</item>
+        <item>Northern Ireland</item>
+        <item>Wales</item>
+        <item>North West</item>
+        <item>East of England</item>
+        <item>Greater London</item>
+    </string-array>
+
+    <string-array name="items_div_class_2">
+        <item>--</item>
+
+        <item> Bavaria</item>
+        <item>Bremen</item>
+        <item>Hamburg</item>
+        <item>Hesse</item>
+        <item>Saxony</item>
+
+    </string-array>
+
+    <string-array name="items_div_class_3">
+        <item>--</item>
+        <item>Campania</item>
+        <item>Lazio</item>
+        <item>Lombardia</item>
+        <item>Veneto</item>
+
+    </string-array>
+
+    <string-array name="items_div_class_4">
+        <item>--</item>
+        <item>Alabama</item>
+        <item>Arizona</item>
+        <item>California</item>
+        <item>Nord Caroline</item>
+        <item>Florida</item>
+        <item>New York</item>
+
+
+    </string-array>
+
+
+    <string-array name="items_year">
+        <item>--</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>over</item>
+
+
+    </string-array>
+
+
+    <string-array name="items_div_class_5">
+        <item>   </item>
+
+    </string-array>
+
+
+    <string-array name="items_div_class3_1">
+        <item>--</item>
+
+        <item> University of London</item>
+        <item>Univeristy of Oxford</item>
+        <item>Uni of Cambridge</item>
+
+    </string-array>
+
+
+    <string-array name="items_div_class3_2">
+        <item>--</item>
+
+        <item> University of Lubeck</item>
+        <item>Univeristy of Berlin</item>
+        <item>Uni ofHamburg</item>
+        <item>Uni of Hesse</item>
+        <item>Technischochschule of Monaco</item>
+
+    </string-array>
+
+    <string-array name="items_div_class3_3">
+        <item>--</item>
+        <item>Sapienza</item>
+        <item>Bocconi</item>
+        <item>Politecnico di Milano</item>
+        <item>University of Padova</item>
+
+    </string-array>
+
+    <string-array name="items_div_class3_4">
+        <item>--</item>
+        <item>Massachusetts Institute of Technology (Mit)</item>
+        <item>University of New York</item>
+        <item> University of Harard</item>
+        <item> University of Stanford</item>
+
+
+    </string-array>
+
+    <string-array name="def">
+        <item>--</item>
+
+        <item>  </item>
+        <item> </item>
+
+
+    </string-array>
+
+
+    <string-array name="faqs">
+        <item>What can I do with this app</item>
+        <item>How to find a course</item>
+        <item>How to connect with people</item>
+        <item>How to manage my profile</item>
+        <item>How to take a test</item>
+        <item>How can I see my chat</item>
+        <item>How can I discover a scholarship?</item>
+        <item>How can I find info about a career abroad? </item>
+        <item>How to edit my info-profile?</item>
+        <item>Where can I see the course saved?</item>
+    </string-array>
+    <string-array name="faqsquest">
+        <item>Who can I chat with?</item>
+        <item>How can I find the peers?</item>
+        <item>I cannot find any peer. What can I do?</item>
+        <item>Can I become a peer?</item>
+        <item>Is it safe to chat with peers?</item>
+        <item>My course is not in the results , how can I add it?</item>
+        <item>My course is not in the choice how can I add it?</item>
+        <item>My I use a false name in the info?</item>
+        <item>Can someone else see my results?</item>
+        <item>Is useful this app for an erasmus student?</item>
+    </string-array>
+
+    <string name="contact1">Stay in Contact with Us!</string>
+    <string name="contact2">Let us know what you think about this application.</string>
+    <string name="contact3">We\'d love to hear your feedback!</string>
+    <string name="contact4">Don\'t forget to follow us to stay updated!</string>
+
+    <string name="canteenDescription">
+        University canteens and catering outlets allow you to have a meal in a friendly environment and close to the course locations at low cost.
+        The service is aimed at all students enrolled on and off course at: State universities, Non-state universities, University institutes, Institutes of high artistic musical culture and choreography; with registered office in the Lazio Region.
+        Access is allowed after carrying out the accreditation procedures. Registration, which can be done at any time of the academic year, entitles you to have meals in any canteen or local agreement.
+        The cost of meals at the canteens and affiliated restaurants change according to student regional tax. There are 5 band: €2.20 (ISEE up to € 19,469.00), €3.00 (ISEE from € 19,469.01 to € 35,679.00), €4.10 (ISEE from € 35,679.01 to € 60,209.00), €5.90 (with ISEE over € € 60,209.01), €7.70 (for all student who do not intend to declare ISEE, trainees or Enrolled in single courses, enrolled in a Master, other users not otherwise included)
+    </string>
+
+    <string name="disabilityDescription"> All university students, who have a certified disability equal to or greater than 66 per cent a specific learning disorder (DSA), are entitled to some services designed to ensure an equal and dignified educational path, favor the accessibility of the structures and to prevent marginalization phenomena.
+        To use the services you must be registered at the help desk for relations with disabled students.
+        The university offers also a counseling service for the didactic support of students with DSA and/or with a previous history of neurodevelopment disorders and/or disability profile or with other special "training" needs. Counseling provides reception, orientation, monitoring and support services, in implementation of Law 170/2010 and subsequent legislative evolution (as Ministerial Decree 5669 of 2011 and attached Guidelines) and in consideration of the CNUDD Guidelines, drawn up following the Conference National University of Delegates for Disability published in July 2014.
+        In each Faculty there is a teacher as a contact person for the active participation of students with disabilities or with DSA.
+        To do this: proceed with the self-declaration of status as a student with DSA on your profile, if not declared at the time of access tests and send an email to the administrative secretary from your institutional email address.
+        You will receive an email response from the DSA Counseling with the proposal for a face-to-face interview.
+    </string>
+    <string name="accomodationDescription"> The university periodically signs agreements with real estate brokerage firms and private residential structures to encourage the search for accommodation reserved for: students enrolled in a university, students who must carry out the university entrance tests, foreign students who participate in academic, educational and cultural exchanges with the university.
+        The agreements with the university ensure the compliance of residential structures with urban planning and safety standards, as well as with quality standards. The university periodically checks the service offered by the structures.
+        For the winning students of the places announced by the Higher School of Advanced Studies - which offers training courses and high qualification training activities, complementary to those provided by the regulations - exemptions from taxes and free accommodation are provided.
+        The competition notice makes 16 places available annually.
+ </string>
+</resources>
+
+

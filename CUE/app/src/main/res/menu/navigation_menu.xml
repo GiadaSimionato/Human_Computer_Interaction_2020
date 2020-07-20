@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:title="Home">
+        <menu>
+            <item
+            android:id="@+id/menuMainPage"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="Main Page"/>
+            <item
+                android:id="@+id/menuContact"
+                android:icon="@drawable/ic_baseline_contact_mail_24"
+                android:title="Contact Us"/>
+            <item
+                android:id="@+id/menufaq"
+                android:icon="@drawable/ic_baseline_contact_support_24"
+                android:title="F.A.Q."/>
+        </menu>
+    </item>
+
+    <item android:title="Sections">
+        <menu>
+            <item
+                android:id="@+id/menuCourse"
+                android:icon="@drawable/ic_baseline_find_in_page_24"
+                android:title="Find a Course"/>
+            <item
+                android:id="@+id/menuCareer"
+                android:icon="@drawable/ic_baseline_work_24"
+                android:title="Choose Your Career"/>
+            <item
+                android:id="@+id/menuPeers"
+                android:icon="@drawable/ic_baseline_textsms_24"
+                android:title="Chat with Peers"/>
+            <item
+                android:id="@+id/menuScholarships"
+                android:icon="@drawable/ic_baseline_school_24"
+                android:title="Scholarships"/>
+            <item
+                android:id="@+id/menuServices"
+                android:icon="@drawable/ic_baseline_library_books_24"
+                android:title="Services"/>
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/menuEdit"
+                android:icon="@drawable/ic_baseline_edit_24"
+                android:title="Edit Profile"/>
+            <item
+                android:id="@+id/menuChats"
+                android:icon="@drawable/ic_baseline_forum_24"
+                android:title="My Chats" />
+            <item
+                android:id="@+id/menuResults"
+                android:icon="@drawable/ic_baseline_bookmarks_24"
+                android:title="My Results"/>
+            <item
+                android:id="@+id/menuLogout"
+                android:icon="@drawable/ic_baseline_account_circle_24"
+                android:title="LogOut"/>
+        </menu>
+    </item>
+
+
+
+
+</menu>

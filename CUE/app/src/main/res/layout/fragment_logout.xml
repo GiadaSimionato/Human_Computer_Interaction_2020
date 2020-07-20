@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ServicesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="150dp"
+        android:gravity="center"
+        android:text="Are you sure you want to Log Out?"
+        android:textColor="@color/blue"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        android:fontFamily="casual"/>
+
+    <Button
+        android:id="@+id/confirm"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/roundbtn"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif-black"
+        android:text="Confirm"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"></Button>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/roundbtn"
+        android:fontFamily="sans-serif-black"
+        android:text="Cancel"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"></Button>
+
+</FrameLayout>
